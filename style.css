@@ -35,7 +35,10 @@ img {
   flex: 1;
 }
 
-.burger-info {
+.burger-info,
+.alfredo-info,
+.pizza-info,
+.ratatouille-info {
   font-family: fantasy;
 }
 
@@ -49,4 +52,15 @@ h4 {
   padding: 15px 40px;
   font-size: 15px;
   font-family: monospace;
+}
+
+.bottom-container {
+  display: flex;
+}
+
+.pizza-menu,
+.pizza-info,
+.ratatouille-info,
+.ratatouille-menu {
+  flex: 1;
 }
