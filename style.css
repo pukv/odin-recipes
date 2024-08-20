@@ -1,3 +1,7 @@
+body {
+  background-color: #e5e5e5;
+}
+
 h1 {
   margin-bottom: 40px;
 }
@@ -13,10 +17,36 @@ h1,
 }
 
 img {
-  height: 400px;
-  width: 400px;
+  height: 250px;
+  width: 250px;
+  margin: 10px 20px;
+  box-sizing: border-box;
 }
 
-.container {
+.container-top {
   margin-top: 80px;
+  display: flex;
+}
+
+.alfredo-menu,
+.burger-menu,
+.burger-info,
+.alfredo-info {
+  flex: 1;
+}
+
+.burger-info {
+  font-family: fantasy;
+}
+
+h4 {
+  font-size: 25px;
+  margin-top: 0px;
+}
+
+.view-button {
+  background-color: white;
+  padding: 15px 40px;
+  font-size: 15px;
+  font-family: monospace;
 }
