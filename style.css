@@ -1,20 +1,13 @@
+h1 {
+  margin-bottom: 40px;
+}
+
 h1,
-.recipe,
-a {
+.welcome-message {
   text-align: center;
   font-family: fantasy;
 }
 
-h2,
-p {
-  font-family: cursive;
-  font-style: italic;
-}
-
-h3 {
-  font-family: fantasy;
-}
-
-li {
-  font-family: monospace;
+.welcome-message {
+  margin: 10px;
 }
