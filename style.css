@@ -11,3 +11,12 @@ h1,
 .welcome-message {
   margin: 10px;
 }
+
+img {
+  height: 400px;
+  width: 400px;
+}
+
+.container {
+  margin-top: 80px;
+}
