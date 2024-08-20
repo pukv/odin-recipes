@@ -1,0 +1,39 @@
+body {
+  background-color: #e5e5e5;
+}
+
+h1,
+h2,
+h3,
+p,
+button {
+  text-align: center;
+  font-family: monospace;
+}
+
+img {
+  display: block;
+  width: 400px;
+  height: auto;
+  margin: auto;
+  border-radius: 50%;
+}
+
+ul,
+ol {
+  font-family: monospace;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  padding: 10px 40px;
+  background-color: white;
+  font-weight: bold;
+  display: block;
+  margin: auto;
+  font-size: 15px;
+}
